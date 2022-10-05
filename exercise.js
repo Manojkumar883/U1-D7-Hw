@@ -90,7 +90,7 @@ else{
 */
 
 /* WRITE YOUR ANSWER HERE */
-let numeric = 7
+let numeric = 6
 if (numeric < 10) {
 if ( x===1){
     console.log('one') 
@@ -102,7 +102,9 @@ if ( x===1){
         console.log('four')
     } else if (num === 5) {
         console.log('five')
-    } else {
+    }else if (num === 6) {
+        console.log('six') 
+    }else {
         console.log("else part")
     }
 }
