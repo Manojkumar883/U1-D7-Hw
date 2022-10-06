@@ -51,6 +51,7 @@ console.log(number1+number2)
 
 /* WRITE YOUR ANSWER HERE */
 let x = 12
+console.log(x)
 
 
 /* EXERCISE 5
@@ -58,7 +59,8 @@ let x = 12
 */
 
 /* WRITE YOUR ANSWER HERE */
-let name = "John Doe"
+let findName = "John Doe"
+console.log(findName)
 
 /* EXERCISE 6
  Execute a subtraction between the number 12 and the variable x you declared before (which is storing the value 12).
@@ -92,20 +94,26 @@ else{
 /* WRITE YOUR ANSWER HERE */
 let numeric = 6
 if (numeric < 10) {
-if ( x===1){
-    console.log('one') 
-    } else if (num === 2) {
-        console.log('two')
-    } else if (num === 3) {
-        console.log('three')
-    } else if (num === 4) {
-        console.log('four')
-    } else if (num === 5) {
-        console.log('five')
-    }else if (num === 6) {
-        console.log('six') 
-    }else {
-        console.log("else part")
+if ( numeric === 1){
+    console.log('x is one') 
+    } 
+    else if (numeric === 2) {
+        console.log('x is two')
+    } 
+    else if (numeric === 3) {
+        console.log('x is three')
+    } 
+    else if (numeric === 4) {
+        console.log('x is four')
+    } 
+    else if (numeric === 5) {
+        console.log('x is five')
+    }
+    else if (numeric === 6) {
+        console.log('x is six') 
+    }
+    else if (numeric === 7){
+        console.log("x is else part")
     }
 }
     
@@ -117,5 +125,11 @@ if ( x===1){
  [Extra] Assign a value to a variable using a ternary operator (this topic has not been covered during lesson yet,
  try to search it by yourself, tomorrow morning we'll discuss it together!)
 */
+ const grade = 75;
+const lessGrade =  grade >= 60? "youPass" : "youFail";
+console.log(lessGrade);
+//
+//
 
 /* WRITE YOUR ANSWER HERE */
+
